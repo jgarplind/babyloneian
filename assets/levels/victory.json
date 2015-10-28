@@ -1,0 +1,12 @@
+{
+    "assets": {
+        "map_tiles": { "type": "image", "source": "assets/images/platformer_tiles.png" },
+        "level_tilemap": { "type": "tilemap", "source": "assets/maps/victory_map.json" }
+    },
+    "groups": [
+    ],
+    "map": {
+        "key": "level_tilemap",
+        "tilesets": ["map_tiles"]
+    }
+}

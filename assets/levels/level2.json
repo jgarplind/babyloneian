@@ -1,0 +1,27 @@
+{
+    "assets": {
+        "map_tiles": { "type": "image", "source": "assets/images/platformer_tiles.png" },
+        "door_tiles": { "type": "image", "source": "assets/images/animated_wooden_castle_door.png"},
+        "player_spritesheet": { "type": "spritesheet", "source": "assets/images/player_spritesheet.png", "frame_width": 28, "frame_height": 30, "frames": 5, "margin": 1, "spacing": 1 },
+        "spike_image": { "type": "image", "source": "assets/images/traps/spikes.png"},
+        "slime_image": { "type": "image", "source": "assets/images/slime.png"},
+        "shroom_image": { "type": "image", "source": "assets/images/shroom.png"},
+        "fly_spritesheet": { "type": "spritesheet", "source": "assets/images/fly_spritesheet.png", "frame_width": 37, "frame_height": 20, "frames": 2 },
+        "door_image": { "type": "spritesheet", "source": "assets/images/animated_wooden_castle_door.png", "frame_width": 64, "frame_height": 64, "frames": 6},
+        "level_tilemap": { "type": "tilemap", "source": "assets/maps/level2_map.json" }
+    },
+    "groups": [
+        "enemies",
+        "goals",
+        "players",
+        "ladders",
+        "shrooms"
+    ],
+    "map": {
+        "key": "level_tilemap",
+        "tilesets": ["map_tiles", "door_tiles"]
+    },
+    "level": {
+        "current": 2
+    }
+}
