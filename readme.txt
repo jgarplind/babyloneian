@@ -1,1 +1,1 @@
-Right-click index.html and run with Firefox for minimal customization.
+Right-click index.html and run with Firefox for minimal customization!
